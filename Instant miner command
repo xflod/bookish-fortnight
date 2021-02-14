@@ -1,0 +1,9 @@
+##### MBC MINER
+official wallet
+
+sudo apt-get install build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git && \
+git clone https://github.com/JayDDee/cpuminer-opt.git && \
+cd cpuminer-opt && \
+./build.sh && \
+mv cpuminer gcash && \
+./gcash -a power2b -o stratum+tcp://mbc-asia.skypool.co:8003 -u BpqYUDvwbrRocrr9TYUWsvx2xPVYU9a1Kd.db3
